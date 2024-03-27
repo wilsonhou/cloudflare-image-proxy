@@ -1,0 +1,8 @@
+name = "cloudflare-image-proxy"
+main = "src/index.ts"
+compatibility_date = "2024-03-20"
+compatibility_flags = ["nodejs_compat"]
+
+# put your provider url here - cloudinary, imgix etc.
+[vars]
+PROVIDER_URL = "<your-domain>.imgix.net"

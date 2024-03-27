@@ -1,0 +1,16 @@
+{
+	"name": "cloudflare-image-proxy",
+	"version": "0.0.0",
+	"private": true,
+	"scripts": {
+		"deploy": "wrangler deploy",
+		"dev": "wrangler dev",
+		"start": "wrangler dev"
+	},
+	"devDependencies": {
+		"@cloudflare/vitest-pool-workers": "^0.1.0",
+		"@cloudflare/workers-types": "^4.20240320.1",
+		"typescript": "^5.0.4",
+		"wrangler": "^3.0.0"
+	}
+}
